@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace FooBar
@@ -19,8 +20,10 @@ namespace FooBar
                 RedirectStandardOutput = true,
                 UseShellExecute = false,
                 CreateNoWindow = true,
+                
             };
             p.Start();
+            Thread.Sleep(100);
             p.WaitForExit(10000);
             if (p.HasExited)
             {
