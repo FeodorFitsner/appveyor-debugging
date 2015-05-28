@@ -14,10 +14,11 @@ namespace FooBar
             var p = new Process();
             p.StartInfo = new ProcessStartInfo()
             {
-                FileName = @"powershell",
-                Arguments = "Get-ChildItem Env:",
+                FileName = @"cmd.exe",
+                Arguments = "/C set",
                 RedirectStandardOutput = true,
                 UseShellExecute = false,
+                CreateNoWindow = true,
             };
             p.Start();
             p.WaitForExit(10000);
