@@ -28,6 +28,7 @@ namespace FooBar
             }
             else
             {
+                p.Kill();
                 Console.WriteLine("DID NOT EXIT");
             }
         }        
