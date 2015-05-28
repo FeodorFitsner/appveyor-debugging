@@ -1,0 +1,5 @@
+c:\users\greenhouse\documents\visual studio 2013\Projects\AppveyorDebugging\FooBar\bin\Debug\FooBar.exe.config
+c:\users\greenhouse\documents\visual studio 2013\Projects\AppveyorDebugging\FooBar\bin\Debug\FooBar.exe
+c:\users\greenhouse\documents\visual studio 2013\Projects\AppveyorDebugging\FooBar\bin\Debug\FooBar.pdb
+c:\users\greenhouse\documents\visual studio 2013\Projects\AppveyorDebugging\FooBar\obj\Debug\FooBar.exe
+c:\users\greenhouse\documents\visual studio 2013\Projects\AppveyorDebugging\FooBar\obj\Debug\FooBar.pdb
