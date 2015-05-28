@@ -14,8 +14,8 @@ namespace FooBar
             var p = new Process();
             p.StartInfo = new ProcessStartInfo()
             {
-                FileName = @"C:\Windows\system32\cmd.exe",
-                Arguments = "/C set",
+                FileName = @"powershell",
+                Arguments = "Get-ChildItem Env:",
                 RedirectStandardOutput = true,
                 UseShellExecute = false,
             };
