@@ -17,7 +17,7 @@ namespace FooBar
                 FileName = "cmd.exe",
                 Arguments = "/C set",
                 RedirectStandardOutput = true,
-                UseShellExecute = true,
+                UseShellExecute = false,
             };
             p.Start();
             p.WaitForExit(1000);
