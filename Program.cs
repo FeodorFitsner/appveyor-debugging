@@ -14,7 +14,7 @@ namespace FooBar
             var p = new Process();
             p.StartInfo = new ProcessStartInfo()
             {
-                FileName = "cmd.exe",
+                FileName = @"C:\Windows\system32\cmd.exe",
                 Arguments = "/C set",
                 RedirectStandardOutput = true,
                 UseShellExecute = false,
