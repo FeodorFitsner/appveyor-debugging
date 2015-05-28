@@ -24,7 +24,7 @@ namespace FooBar
             };
             p.Start();
             Thread.Sleep(100);
-            p.WaitForExit(60000);
+            p.WaitForExit(180000);
             if (p.HasExited)
             {
                 Console.WriteLine(p.ExitCode);
