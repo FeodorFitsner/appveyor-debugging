@@ -20,7 +20,7 @@ namespace FooBar
                 UseShellExecute = false,
             };
             p.Start();
-            p.WaitForExit(1000);
+            p.WaitForExit(10000);
             if (p.HasExited)
             {
                 Console.WriteLine(p.ExitCode);
